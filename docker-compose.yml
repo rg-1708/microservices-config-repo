@@ -1,0 +1,19 @@
+services:
+
+  discovery-server:
+    image: rg/discovery-server:latest
+    ports:
+      - "8761:8761"
+
+  configuration-server:
+    image: rg/configuration-server:latest
+    ports:
+      - "8888:8888"
+
+  api-gateway-service:
+    image: rg/api-gateway-service:latest
+
+
+
+
+
